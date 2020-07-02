@@ -16,7 +16,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function SimpleTable(props) {
+export default function SimpleTable() {
   const classes = useStyles();
 
   return (
@@ -30,7 +30,6 @@ export default function SimpleTable(props) {
             <TableCell align="right"><EmailIcon /><strong>Email</strong></TableCell>
           </TableRow>
         </TableHead>
-      
       </Table>
     </TableContainer>
   );
